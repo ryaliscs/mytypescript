@@ -1,0 +1,29 @@
+{
+  "name": "mytypescript",
+  "version": "1.0.0",
+  "description": "type script example",
+  "main": "app.js",
+  "scripts": {
+    "test": "we are live",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryaliscs/mytypescript.git"
+  },
+  "author": "sarat ryali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryaliscs/mytypescript/issues"
+  },
+  "homepage": "https://github.com/ryaliscs/mytypescript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.1.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.2.4"
+  }
+}

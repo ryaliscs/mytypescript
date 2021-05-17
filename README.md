@@ -1,2 +1,1 @@
-# mytypescript
-Examples in Type script
+## https://matthewhorne.me/setup-typescript-project/
